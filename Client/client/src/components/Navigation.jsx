@@ -11,12 +11,12 @@ const Navigation = () => {
     <nav className="nav">
       <ul>
         <li>
-          <NavLink to="/PokeNumber" className="nav-link" activeClassName={isActiveRoute("/PokeNumber") ? "active" : ""}>
+          <NavLink to="/PokeNumber" className="nav-link" activeclassname={isActiveRoute("/PokeNumber") ? "active" : ""}>
             <button className="btn1">Search by Number</button>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Stats" className="nav-link" activeClassName={isActiveRoute("/Stats") ? "active" : ""}>
+          <NavLink to="/Stats" className="nav-link" activeclassname={isActiveRoute("/Stats") ? "active" : ""}>
             <button className="btn">Search By Stats</button>
           </NavLink>
         </li>
