@@ -16,7 +16,7 @@ const PokeNumber = props => {
     }
 
     const getPokemon = e => {
-        let importurl = 'https://server-git.onrender.com/'
+        let importurl = 'https://server-git.onrender.com'
         importurl += ('/pokemon/number/' + pokeNumber)
         console.log(importurl)
         fetch(importurl)
