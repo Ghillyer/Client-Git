@@ -47,7 +47,7 @@ const Stats = () => {
   };
 
 const getFilteredPokemon = async () => {
-  let importurl = 'http://localhost:8080';
+  let importurl = 'https://server-git.onrender.com/';
   importurl += '/pokemon/base/' + PokeHP + '/' + PokeAttack + '/' + PokeDefense + '/' + PokeSpAttack + '/' + PokeSpDefense + '/' + PokeSpeed;
   try {
     const response = await fetch(importurl);
